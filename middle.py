@@ -1,5 +1,12 @@
 # _*_ coding: utf-8 _*_
 from __future__ import unicode_literals
+import cx_Oracle
 
-response = 'hello,你好'
-print response
+if __name__ == '__main__':
+    db = cx_Oracle.connect('trade_hhj', 'huhuijun01', '192.168.121.15:1521/myldb')
+    print db.version
+    cursor = db.cursor()
+    cursor.execute("SELECT * FROM JY_CPCNRESPONSERELATION ORDER BY ROWID")
+    rows = cursor.fetchall()
+    for i in rows:
+        print i
