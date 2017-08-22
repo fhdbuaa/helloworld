@@ -4,6 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import codecs
+import xpinyin
 
 
 def d_format(word):
@@ -22,7 +23,7 @@ def get_class(word):
 
 def get_deck(word, info):
     for (key, value) in info.items():
-        if isinstance(value,dict):
+        if isinstance(value, dict):
             for decks in value.get('deck', []):
                 if decks['name'] == word:
                     return decks
@@ -32,14 +33,16 @@ def get_deck(word, info):
 def update_deck(decks, info):
     word = decks['name']
     for (key, value) in info.items():
-        if isinstance(value,dict):
-            for i,temps in enumerate(value.get('deck', [])):
+        if isinstance(value, dict):
+            for i, temps in enumerate(value.get('deck', [])):
                 if temps['name'] == word:
                     value.get('deck')[i] = decks
     return info
 
 
 if __name__ == '__main__':
+    exceptions_list = {'防战': '恩佐斯防战'}
+    pinyin = xpinyin.Pinyin()
     deck_info = {'intro': '', 'TS': {'Tintro': '', 'deck': []}, 'T1': {'Tintro': '', 'deck': []},
                  'T2': {'Tintro': '', 'deck': []}, 'T3': {'Tintro': '', 'deck': []}, 'T4': {'Tintro': '', 'deck': []},
                  'T5': {'Tintro': '', 'deck': []}}
@@ -54,6 +57,8 @@ if __name__ == '__main__':
     mark = 0
     rank = 0
     deck = {}
+    kind = 'TS'
+    deck_name = ''
     for string in soup.p.stripped_strings:
         string = d_format(string)
         print string
@@ -69,20 +74,21 @@ if __name__ == '__main__':
             elif mark == 2:
                 temp = string.split('：')
                 for item in temp[1].split('、'):
+                    for k, v in exceptions_list.items():
+                        if item.startswith(k):
+                            item = v + item[2:]
                     rank += 1
                     try:
                         deck = {'name': item.split('(')[0], 'weekRating': unicode(rank) + '(' + item.split('(')[1],
                                 'class': get_class(item.split('(')[0])}
                         deck_info[temp[0]]['deck'].append(deck)
                     except (IndexError, KeyError):
-                        print item
+                        print 'Error with', item
                 if temp[0] == 'T5':
                     mark = 3
                     rank = 0
             elif mark == 3:
-                kind = 'TS'
-                deck_name = ''
-                print deck_name
+                # print deck_name
                 if len(string) == 4 and string.startswith('T') and string.endswith('卡组'):
                     kind = string[:2]
                 if 0 < len(string) < 6 and string[-1] in ['法', '德', '战', '牧', '术', '园', '贼', '猎', '萨', '骑']:
@@ -91,7 +97,17 @@ if __name__ == '__main__':
                     deck_name = string
                     deck = get_deck(deck_name, deck_info)
                 if string.endswith('.png'):
-                    deck['imgUrl'] = r'http://img.ngacn.cc/attachments' + string[string.index('/'):]
+                    imgUrl = r'http://img.ngacn.cc/attachments' + string[string.index('/'):]
+                    deck['imgUrl'] = imgUrl
+                    img = requests.get(imgUrl, stream=True)
+                    # print deck['name'], pinyin.get_pinyin(deck['name'], '')
+                    with open('src/' + kind + '-' + pinyin.get_pinyin(deck_name, '') + '.png', str('wb')) as png:
+                        for chunk in img.iter_content(chunk_size=1024):
+                            if chunk:  # filter out keep-alive new chunks
+                                png.write(chunk)
+                                png.flush()
+                        deck['imgSrc'] = 'https://longlang.github.io/deckimg/' + kind + '-' + pinyin.get_pinyin(
+                            deck_name, '') + '.png'
                     rank = 1
                 if string.startswith('套牌代码：'):
                     rank = 3
