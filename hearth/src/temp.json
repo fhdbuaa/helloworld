@@ -1,0 +1,306 @@
+{
+    "T4": {
+        "Tintro": "欠缺精炼、思路奇异、极其小众或已经退役的套牌，要击败天梯主流套牌需要对套牌中每张单卡有深刻理解。", 
+        "deck": [
+            {
+                "code": "AAECAf0GApziApfTAg6VzgLCCLy2At7EAsQIzgcwmssC1LMC+wUX980C9wSmzgIA", 
+                "name": "动物园", 
+                "imgSrc": "https://longlang.github.io/deckimg/T4-dongwuyuan.png", 
+                "weekRating": "23(+3)", 
+                "class": "术士", 
+                "imgUrl": "http://img.ngacn.cc/attachments/mon_201708/21/bqQ13t-8to1ZjT1kS63-fk.png"
+            }, 
+            {
+                "code": "AAECAQcG08MCkANLoscCubICws4CDNQEkQaRA8bDAvsMgq0Cm8ICzM0C0q4C/rwCoM4CyccCAA==", 
+                "name": "任务战", 
+                "imgSrc": "https://longlang.github.io/deckimg/T4-renwuzhan.png", 
+                "weekRating": "24(-10)", 
+                "class": "战士", 
+                "imgUrl": "http://img.ngacn.cc/attachments/mon_201708/21/bqQ13t-7hvsZmT1kS63-hi.png"
+            }, 
+            {
+                "code": "AAECAQcIjs4CzM0CnuICpAP4DKbOAp/TAuCsAguGsALUBJADkQaRA7IIxsMC+wzKzQKCrQKixwIA", 
+                "name": "恩佐斯防战", 
+                "imgSrc": "https://longlang.github.io/deckimg/T4-enzuosifangzhan.png", 
+                "weekRating": "25(-3)", 
+                "class": "战士", 
+                "imgUrl": "http://img.ngacn.cc/attachments/mon_201708/21/bqQ13t-5n1gZnT1kS63-ih.png"
+            }
+        ]
+    }, 
+    "T5": {
+        "Tintro": "只属于任务贼", 
+        "deck": [
+            {
+                "code": "AAECAaIHApG8AobCAg6GCe0C68ICl8EC1AWIBZK2AoqtAvi9ApwCnwPGxwL8wQLEAQA=", 
+                "name": "任务贼", 
+                "imgSrc": "https://longlang.github.io/deckimg/T5-renwuzei.png", 
+                "weekRating": "26(+1)", 
+                "class": "盗贼", 
+                "imgUrl": "http://img.ngacn.cc/attachments/mon_201708/21/bqQ13t-gskbZjT1kS63-fk.png"
+            }
+        ]
+    }, 
+    "T2": {
+        "Tintro": "具有竞争力但存在一些弱点的套牌，比如翻盘能力不足或者依赖牌序，在加入黑科技后能够击败顶级套牌。", 
+        "deck": [
+            {
+                "code": "AAECAa0GBqUJhbgCmcgCws4CogmoqwIMoqwC6L8CtbsC0cEC1wrTCuXMApK0AqGsAuq/ArTOAubMAgA=", 
+                "name": "大哥牧", 
+                "imgSrc": "https://longlang.github.io/deckimg/T2-dagemu.png", 
+                "weekRating": "10(-)", 
+                "class": "牧师", 
+                "imgUrl": "http://img.ngacn.cc/attachments/mon_201708/21/bqQ13t-9kipZmT1kS63-hi.png"
+            }, 
+            {
+                "code": "AAECAaoIBpG8ApvCAuvPApS9AqbOAtMBDOUH68IC9r0C8AfkwgLRvAKgtgKRwQKBBIe8ApMJ+6oCAA==", 
+                "name": "铺场萨", 
+                "imgSrc": "https://longlang.github.io/deckimg/T2-puchangsa.png", 
+                "weekRating": "11(-7)", 
+                "class": "萨满", 
+                "imgUrl": "http://img.ngacn.cc/attachments/mon_201708/21/bqQ13t-3cstZmT1kS63-hi.png"
+            }, 
+            {
+                "code": "AAECAaIHCJG8Au0FzQO9BLIC/MECgsICgNMCC7QB9bsChgmbyAKStgKIB5sFlwaBwgKkB4K0AgA=", 
+                "name": "奇迹贼", 
+                "imgSrc": "https://longlang.github.io/deckimg/T2-qijizei.png", 
+                "weekRating": "12(-2)", 
+                "class": "盗贼", 
+                "imgUrl": "http://img.ngacn.cc/attachments/mon_201708/21/bqQ13t-4bbsZnT1kS63-ih.png"
+            }, 
+            {
+                "code": "AAECAf0GBooHqa0C8gX4DMLOApfTAgzECDDnywKKAfMMkge2B40I980CzAjdvALhBwA=", 
+                "name": "手牌术", 
+                "imgSrc": "https://longlang.github.io/deckimg/T2-shoupaishu.png", 
+                "weekRating": "13(-)", 
+                "class": "术士", 
+                "imgUrl": "http://img.ngacn.cc/attachments/mon_201708/21/bqQ13t-de6vZmT1kS63-hi.png"
+            }, 
+            {
+                "code": "AAECAf0EBvsMxsECwwHezQL6vwK4CAyVA8HBApYF17YCmMQC5gSrBHHsBbsCh70Co7YCAA==", 
+                "name": "节奏法", 
+                "imgSrc": "https://longlang.github.io/deckimg/T2-jiezoufa.png", 
+                "weekRating": "14(-6)", 
+                "class": "法师", 
+                "imgUrl": "http://img.ngacn.cc/attachments/mon_201708/21/bqQ13t-ashzZmT1kS63-hi.png"
+            }
+        ]
+    }, 
+    "T3": {
+        "Tintro": "较为中庸且不算很烂的套牌，但要么完整度不足，要么套牌类型不符合当前环境。", 
+        "deck": [
+            {
+                "code": "AAECAf0ECNPFAu0E6boC3s0CobcCxQSb0wK/CAvBwQKKAZYF17YCmMQCqwTLBMABuwLJA6O2AgA=", 
+                "name": "冰法", 
+                "imgSrc": "https://longlang.github.io/deckimg/T3-bingfa.png", 
+                "weekRating": "15(-13)", 
+                "class": "法师", 
+                "imgUrl": "http://img.ngacn.cc/attachments/mon_201708/21/bqQ13t-8vxdZnT1kS63-ih.png"
+            }, 
+            {
+                "code": "AAECAZ8FDIquAp29AtmuAry9As8Gj7QCucEC+AzmrgLCzgL6Bo7TAgmKAfQFs8EC9gePCZvCAtwD+r8CiMcCAA==", 
+                "name": "奶骑", 
+                "imgSrc": "https://longlang.github.io/deckimg/T3-naiqi.png", 
+                "weekRating": "16(-4)", 
+                "class": "骑士", 
+                "imgUrl": "http://img.ngacn.cc/attachments/mon_201708/21/bqQ13t-bhocZqT1kS63-kf.png"
+            }, 
+            {
+                "code": "AAECAQcGkQOsuwL2B8CvAszNAp/TAgyGsAL8BNQEkAOCCI7OApEGsgjGwwL7DP8HgrQCAA==", 
+                "name": "无限战", 
+                "imgSrc": "https://longlang.github.io/deckimg/T3-wuxianzhan.png", 
+                "weekRating": "17(-)", 
+                "class": "战士", 
+                "imgUrl": "http://img.ngacn.cc/attachments/mon_201708/21/bqQ13t-n12ZmT1kS63-hi.png"
+            }, 
+            {
+                "code": "AAECAaIHBvW7ApG8At0Iyb8CgcIClL0CDLQB68IC+asCkrYCiAf6vQL5vQL8wQKU0ALPvALcrwKmzgIA", 
+                "name": "青玉贼", 
+                "imgSrc": "https://longlang.github.io/deckimg/T3-qingyuzei.png", 
+                "weekRating": "18(+1)", 
+                "class": "盗贼", 
+                "imgUrl": "http://img.ngacn.cc/attachments/mon_201708/21/bqQ13t-8gizZmT1kS63-hi.png"
+            }, 
+            {
+                "code": "AAECAaIHCowC68ICkbwCzQOyAt0I18oC8gXIA68ECrQBywPUBZK2AucHiAea4gKoBe4Gub8CAA==", 
+                "name": "快攻贼", 
+                "imgSrc": "https://longlang.github.io/deckimg/T3-kuaigongzei.png", 
+                "weekRating": "19(+1)", 
+                "class": "盗贼", 
+                "imgUrl": "http://img.ngacn.cc/attachments/mon_201708/21/bqQ13t-jzptZoT1kS63-jg.png"
+            }, 
+            {
+                "code": "AAECAa0GAsrDAr7IAg6lCfgC8gy1uwLlBN0E0QqstALYwQLRwQL7DMXHAvC7AqmtAgA=", 
+                "name": "净化牧", 
+                "imgSrc": "https://longlang.github.io/deckimg/T3-jinghuamu.png", 
+                "weekRating": "20(-3)", 
+                "class": "牧师", 
+                "imgUrl": "http://img.ngacn.cc/attachments/mon_201708/21/bqQ13t-eszbZjT1kS63-fk.png"
+            }, 
+            {
+                "code": "AAECAa0GBvgC0QrTCqqyAqbOAsnHAgzyDOUEgrUC2MEC0cEC1wrwuwKStAKNCMrLArq7Auq/AgA=", 
+                "name": "龙牧", 
+                "imgSrc": "https://longlang.github.io/deckimg/T3-longmu.png", 
+                "weekRating": "21(-12)", 
+                "class": "牧师", 
+                "imgUrl": "http://img.ngacn.cc/attachments/mon_201708/21/bqQ13t-ku25ZmT1kS63-hi.png"
+            }, 
+            {
+                "code": "AAECAR8GxQj+DM6uAsbOAobTAsLOAgzquwK7A47DAuTCArm0ArUDqALsuwLbCesH7QmmzgIA", 
+                "name": "中速猎", 
+                "imgSrc": "https://longlang.github.io/deckimg/T3-zhongsulie.png", 
+                "weekRating": "22(+2)", 
+                "class": "猎人", 
+                "imgUrl": "http://img.ngacn.cc/attachments/mon_201708/21/bqQ13t-9hfaZmT1kS63-hi.png"
+            }
+        ]
+    }, 
+    "TS": {
+        "Tintro": "", 
+        "deck": [
+            {
+                "cons": [
+                    "快攻德", 
+                    "鱼人骑", 
+                    "任务法"
+                ], 
+                "name": "青玉德", 
+                "toFast": "-", 
+                "toControl": "-传播瘟疫x1 +青玉之灵x1", 
+                "cardIntro": "暴雪这一次终于是对了。。。不是在单卡的设计上，而是在单卡的命名上，在冰封王座传播瘟疫的德鲁伊确实终极感染了整个天梯。在德鲁伊这个邪恶的家族中，青玉德是这个天梯的王者也是所有炉石玩家无尽的梦魇。这就是炉石的新版本，10费的终极感染，虽然不是传说，却拥有超过17费的效果，真的难说这有多平衡。希望暴雪尽快行动，调整平衡。", 
+                "code": "AAECAZICCPnAAq6rAs+8ApS9AqQH+AyZ0wLJxwIL/gG0uwLkCMQGy7wCvq4CQF+gzQLdvgKHzgIA", 
+                "imgSrc": "https://longlang.github.io/deckimg/TS-qingyude.png", 
+                "weekRating": "1(+5)", 
+                "class": "德鲁伊", 
+                "imgUrl": "http://img.ngacn.cc/attachments/mon_201708/21/bqQ13t-2odvZoT1kS63-ih.png"
+            }, 
+            {
+                "cons": [
+                    "鱼人骑", 
+                    "宇宙牧"
+                ], 
+                "name": "超生德", 
+                "toFast": "-", 
+                "toControl": "-紫罗兰教师x1 +德鲁伊DKx1", 
+                "cardIntro": "超生德被巫妖王复活重新加入战斗，并且加入了新的强大法术。因其能很好的应对其他形态的德鲁伊而且在当前环境没有能够针对到它的卡组，从而超越T1加入TS成为目前排名第二的卡组。低费的嘲讽，比如虫群德鲁伊、焦油爬行者、地穴领主以及与其配合的硬壳清道夫，使得德鲁伊即使没有跳费也能强力站场。传播瘟疫与硬壳清道夫的配合也可以使德鲁伊在丢失场面的情况下强力返场。DK牌在内战时似乎有点太慢了，也许巫妖王才是更好的选择。", 
+                "code": "AAECAZICBMrDAq6rAr6uAsLOAg3+Ac27ApvNAvcD5AjEBo7QAkCFCF+gzQKmzgKHzgIA", 
+                "imgSrc": "https://longlang.github.io/deckimg/TS-chaoshengde.png", 
+                "weekRating": "2(-)", 
+                "class": "德鲁伊", 
+                "imgUrl": "http://img.ngacn.cc/attachments/mon_201708/21/bqQ13t-dguaZkT1kS63-gj.png"
+            }, 
+            {
+                "cons": [
+                    "超生德", 
+                    "宇宙牧"
+                ], 
+                "name": "快攻德", 
+                "toFast": "-", 
+                "toControl": "-", 
+                "cardIntro": "快攻德在两个版本后仍位居前列，像青玉德一样占据天梯。目前坐稳德鲁伊家族第三把交椅的快攻德拥有某些爆炸性的回合以及一些已知的缺点。虽然跟德鲁伊的一些新的强力法术相性不合(传播瘟疫和终极感染)，但快攻德仍然得到了很好的补充，2费的虫群德鲁伊是原来海盗杀手蟹的优秀替代品，骨魇虽然有点慢，但跟各种衍生物能形成很强的配合。", 
+                "code": "AAECAZICApG8AvgMDv4B5Qe2swLrwgLNuwKbzQLBqwL3A5HQAuYFn8ICr8IChsECps4CAA==", 
+                "imgSrc": "https://longlang.github.io/deckimg/TS-kuaigongde.png", 
+                "weekRating": "3(+2)", 
+                "class": "德鲁伊", 
+                "imgUrl": "http://img.ngacn.cc/attachments/mon_201708/21/bqQ13t-2oflZjT1kS63-fk.png"
+            }, 
+            {
+                "cons": [
+                    "任务法", 
+                    "鱼人骑"
+                ], 
+                "name": "大哥德", 
+                "toFast": "-黑龙领主死亡之翼x1 +海盗杀手蟹x1", 
+                "toControl": "-", 
+                "cardIntro": "真的难以想象，在冰封王座，竟然可以允许这样极贪的卡组作为竞技卡组而非娱乐卡组存在。因为很少有对手能够前期对德鲁伊造成极大的威胁，从而使其可以安稳的跳费到高费阶段，从而让后期大哥可以尽早的出场。在炉石中，一直要求天梯主流卡组具有好的快攻抗性，而随着新卡传播瘟疫和终极感染的加入，德鲁伊的快攻抗性进一步加强。", 
+                "code": "AAECAZICCsu8AoW4Ar6uApnTArmyAsLOAqIJwgafsAKoqwIK/gH5wALkCMQGQF+gzQKuwgLJxwKHzgIA", 
+                "imgSrc": "https://longlang.github.io/deckimg/TS-dagede.png", 
+                "weekRating": "4(+11)", 
+                "class": "德鲁伊", 
+                "imgUrl": "http://img.ngacn.cc/attachments/mon_201708/21/bqQ13t-51v4ZoT1kS63-jg.png"
+            }, 
+            {
+                "cons": [
+                    "大哥德", 
+                    "快攻德", 
+                    "青玉德", 
+                    "任务法", 
+                    "鱼人骑"
+                ], 
+                "name": "蓝龙德", 
+                "toFast": "-", 
+                "toControl": "-", 
+                "cardIntro": "作为次优形态的中速德，蓝龙德对于场面的处理能力比较弱，而且在斩杀组件中缺少了活体法力，也使得斩杀威胁降低。但是，这套卡组仍然可靠，因为。。。。。他是德鲁伊！！向加基森拍卖师说再见，因为我们现在有了更好的替代品——终极感染！场面落后？没关系，我们有传播瘟疫！虽然现在这套卡组并没有很流行，因为其他形态的德鲁伊更加强力，但蓝龙德作为一套德鲁伊卡组仍然值得期待。", 
+                "code": "AAECAZICBK6rApnTArQD4LsCDf4B0wPNuwL3A+QIxAa+rgJAhQhfoM0Ch84CgrQCAA==", 
+                "imgSrc": "https://longlang.github.io/deckimg/TS-lanlongde.png", 
+                "weekRating": "5(-)", 
+                "class": "德鲁伊", 
+                "imgUrl": "http://img.ngacn.cc/attachments/mon_201708/21/bqQ13t-ghw8ZkT1kS63-gj.png"
+            }
+        ]
+    }, 
+    "intro": "在上次的周报中我们在T1级别之上加入了TS级别，这周的冰封王座周报将继续沿用这个分级。由于两张新卡传播瘟疫和终极感染的加入，德鲁伊成为了本周TS级别的唯一一个职业，与此同时，整个天梯分化成为极端的2个阵营，德鲁伊阵营和就打德阵营。由于德鲁伊强大的跳费手段，尤其是激活(一张该进荣誉室的单卡)的存在，让德鲁伊可以在早起就可以利用高费质量单卡创造巨大优势，这让他的对手很难去抵抗。但更糟糕的是，由于德鲁伊形态众多，我们很难决定起手的换牌，在本周的TS级别，就有青玉德，超生德，快攻德，大哥德甚至于蓝龙德，每个卡组都有不同的打法和取胜方法，这使得在面对德鲁伊时，如果猜错形态，很可能开局就已经输了。德鲁伊的大热也使得许多针对卡组的地位上升，比如大哥牧以及鱼人骑成为了对抗德鲁伊最成功的卡组，同时任务法的OTK斩杀也是对抗德鲁伊的重要手段。至于术士，狗蛋总算是看到了光明，随着DK的加入，狗蛋正在卷土重来。本期TS周报分级和走势为：", 
+    "T1": {
+        "Tintro": "极为完善、高效的套牌，具有强力配合和单卡协同效果极佳，能够让败北的对手在面对它们时感到无力和不公平。", 
+        "deck": [
+            {
+                "cons": [
+                    "快攻德", 
+                    "宇宙牧"
+                ], 
+                "name": "鱼人骑", 
+                "toFast": "-黑骑士x1 +自走炮x1", 
+                "toControl": "-奉献x1 +巫妖王x1", 
+                "cardIntro": "中速鱼人骑回归T1。新版本鱼人骑得到了2张新的强力补充，正义保护者和骨魇，黑骑士也因为巫妖王的高出场率被重新重用。中速鱼人骑荣升T1顶端完全因为其对德鲁伊的压制能力(除了快攻德)。鱼人骑在大多数对局中占据优势，即使处于劣势对抗，也有机会通过卡组韧性反败为胜。随着骨魇和正义保护者的加入，中速鱼人骑和快攻鱼人骑构筑趋于一致。如果你在寻找一套能够对抗德鲁伊同时在对抗其他卡组也不太吃亏的卡组，那么鱼人骑就是你最好的选择。", 
+                "code": "AAECAZ8FBq8H0OIC474CucEC+Az6BgzbA+PLAtOqArPBAp3CAqcI2a4Cm8IC3AOxwgKIxwKmzgIA", 
+                "imgSrc": "https://longlang.github.io/deckimg/T1-yurenqi.png", 
+                "weekRating": "6(+7)", 
+                "class": "骑士", 
+                "imgUrl": "http://img.ngacn.cc/attachments/mon_201708/21/bqQ13t-oyiZmT1kS63-hi.png"
+            }, 
+            {
+                "cons": [
+                    "任务法"
+                ], 
+                "name": "宇宙牧", 
+                "toFast": "-", 
+                "toControl": "-小软x1 -海盗杀手蟹x1 +黑骑士x1 +巫妖王x1", 
+                "cardIntro": "宇宙牧回归，甚至比原来更强了。牧师的DK与拉兹的强力配合使宇宙牧荣升T1。卡组中的很多早期解场单卡帮牧师撑过前期，暗影视界也可以发现额外的解场卡。在拉兹的配合下，变身DK后可以打出一波爆发，或者给予持续的血线压力。而且卡组仍在不断优化，可以确定的是，宇宙牧将在T1待很久。", 
+                "code": "AAECAa0GHqUJlwLyDOi/ArW7AuUEigftBYoB5MIC+wHYwQLRwQLXCvDPAvsM2cEC08UC8LsC0wq3uwLYuwKStAKhrALJBr7IAoO7ApAC6r8CkNMCAAA=", 
+                "imgSrc": "https://longlang.github.io/deckimg/T1-yuzhoumu.png", 
+                "weekRating": "7(+18)", 
+                "class": "牧师", 
+                "imgUrl": "http://img.ngacn.cc/attachments/mon_201708/21/bqQ13t-iai7Z11T1kS63-t6.png"
+            }, 
+            {
+                "cons": [
+                    "超生德", 
+                    "快攻德"
+                ], 
+                "name": "任务法", 
+                "toFast": "-", 
+                "toControl": "-", 
+                "cardIntro": "由于能够针对青玉德，任务法在新版本荣升T1。卡组并不在乎对手有多少血量，在对抗慢速德鲁伊的时候很容易靠无限火球获得游戏胜利。除了快攻以为，卡组最大的敌人就是自己，完成任务的速度以及组件凑齐的速度往往会影响你的胜率。但如果你想吊打青玉德，任务法绝对是一个好选择。", 
+                "code": "AAECAf0EBNDBAu0EudECuAgNgbICwcECigGcApjEAuYEqwT4B8sEwAHaxQKSrALJAwA=", 
+                "imgSrc": "https://longlang.github.io/deckimg/T1-renwufa.png", 
+                "weekRating": "8(+13)", 
+                "class": "法师", 
+                "imgUrl": "http://img.ngacn.cc/attachments/mon_201708/21/bqQ13t-fthpZlT1kS63-gj.png"
+            }, 
+            {
+                "cons": [
+                    "快攻德"
+                ], 
+                "name": "海盗战", 
+                "toFast": "-苦潮多头蛇x1 +幻影海盗x1 +海盗杀手蟹x2 或 +鱼人杀手蟹x2", 
+                "toControl": "-", 
+                "cardIntro": "海盗战位居T1，是目前环境第一快攻。除了快攻德和铺场萨，海盗战都占据优势。当德鲁伊和一些比较贪的控制卡组增多，海盗战就会成为平衡环境的重要组件。", 
+                "code": "AAECAQcEkbwC18oC8gWvBA2CsALUBf8D5weRA+8HiLACjgWoBe4GHLACr8ICAA==", 
+                "imgSrc": "https://longlang.github.io/deckimg/T1-haidaozhan.png", 
+                "weekRating": "9(-6)", 
+                "class": "战士", 
+                "imgUrl": "http://img.ngacn.cc/attachments/mon_201708/21/bqQ13t-h5feZlT1kS63-gj.png"
+            }
+        ]
+    }
+}
