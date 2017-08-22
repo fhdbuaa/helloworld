@@ -1,0 +1,351 @@
+ {
+  "intro": "海盗战自从7.1.0版本以来就已经统治这个环境(直到在新扩展包发布之前短暂下滑)…然后在8.0.0版本仍然没有改变。勇闯安戈洛扩展包为炉石带来很多变化，但海盗战依然是最强套牌。这个事实是因为在标准环境进入猛犸年后，它并没有因此损失什么，它仍然保持在顶盾，惩罚那些粗糙和新式套牌，成为现存的最强快攻套牌。紧随其后的是奇迹贼，这个套牌之前一度被认为奇迹已死，但却以最强的形态之一归来，这是因为当前版本有很多可用的卡牌。它的排名甚至在任务战和任务贼之上——这两个套牌是勇闯安戈洛版本中最能利用新任务的两个套牌——而它们由于套牌强度也位列T1行列。但谨记，新扩展包发布才一个多星期，所有的事情仍有变数，很多T2和T2的套牌仍然粗糙和欠缺优化，因此它们还有机会在之后的版本成型后排名上升。有些套牌的核心基础已经非常强力，如果下次周报看到它们出现在T1和T2也不要太过惊讶。很多玩家可能会很高兴地看到他们钟爱的职业位列在T1和T2，当前版本的多元化是史上最高。只有萨满没有T2或以上的套牌…但大多数人觉得这种情况尚可——毕竟我们已经忍受了太久的快攻萨和中速萨，这个职业是时候稍微降低一些强度了。尽管这个版本看起来百花齐放，但当前环境又一次回归到石头剪刀布的循环，现在是控制套牌干掉快攻套牌、快攻套牌干掉盗贼套牌、盗贼套牌干掉控制套牌。这个结果导致很难去找出一套可以克制所有套牌的超级套牌，取而代之是，继续关注主流套牌的变化，并且找到你的针对手段，和更慎重地在套牌中投入黑科技。TS上大部分卡组经过天梯玩家和职业选手的测试，但仍需要使用者自己把握细节。本帖主要提供中文卡组翻译，部分卡组提供最近趋势变动解释，由于对战胜率上存在诱导和差异，不作详细解释，可自行查阅原帖。有特别想要了解的卡组可以回复，我有时间会搬运。",
+  "T1": {
+    "Tintro": "战士和盗贼分庭抗拒，双方相克相生，而它们也是这个版本目前看起来最适合做任务的职业。",
+    "Deck": [
+      {
+        "name": "海盗战",
+        "class": "战士",
+        "imgSrc": "http://i1.piimg.com/567571/fd650d9bd440c1a5.png",
+        "imgUrl": " http://img.ngacn.cc/attachments/mon_201704/15/-5f8y5Q2g-c81nZlT1kS63-gj.png",
+        "cardIntro": "海盗战还在这里，而且比之前更为强大，基本上强度没有削弱。葛拉卡爬行蟹是一张很强的针对卡，基本上天梯很多套牌都带了，但它也能够补充海盗战自身欠缺的2费强力曲线。",
+        "weekRating": "1(+2)",
+        "toFast": "-绿皮船长、纳迦海盗 +致死打击",
+        "toControl": "-绿皮船长、纳迦海盗 +苦潮多头蛇",
+        "cons": [
+          "净化牧","咆哮德","墙战","动物园"          
+        ]
+      },
+      {
+        "name": "奇迹贼",
+        "class": "盗贼",
+        "imgSrc": "http://i1.piimg.com/567571/4891bd02dc394bb2.png",
+        "imgUrl": " http://img.ngacn.cc/attachments/mon_201704/15/-5f8y5Q2g-9o2wZnT1kS63-ih.png",
+        "cardIntro": "奇迹贼再次让玩家惊喜，原本预定死亡的套牌反而茁壮成长。虽然失去了隐藏，却得到了其他有用卡牌，现在的奇迹贼是一个互动性更强的套牌，依赖场面优势取胜。",
+        "weekRating": "2(+11)",
+        "toFast": "x",
+        "toControl": "-葛拉卡爬行蟹 +紫罗兰教师",
+        "cons": [
+          "海盗战","龙牧","动物园","打脸法"          
+        ]
+      },
+      {
+        "name": "墙战",
+        "class": "战士",
+        "imgSrc": "http://i4.buimg.com/567571/d494da5fe90b2a7f.png",
+        "imgUrl": "http://img.ngacn.cc/attachments/mon_201704/15/-5f8y5Q2g-9jscZlT1kS63-gj.png",
+        "cardIntro": "战士的任务是一个相对简单的任务，它的出现填充了控制>快攻>组合技>控制这个铁三角重要组成部分，每当快攻肆虐版本你就可以拿出墙战塞上一些嘲讽随从组成叹息之墙。虽然炎魔之王已经远离标准模式，但它的能力仍然可以决定游戏胜负。",
+        "weekRating": "3(-)",
+        "toFast": "-盾牌格挡、盾牌猛击 +血蹄勇士、焦油爬行者",
+        "toControl": "-旋风斩 +暴躁的恐角龙",
+        "cons": ["宇宙术","奇迹贼"
+        ]
+      },
+      {
+        "name": "任务贼",
+        "class": "盗贼",
+        "imgSrc": "http://i2.muimg.com/567571/e1fba7a2d30dc844.png",
+        "imgUrl": "http://img.ngacn.cc/attachments/mon_201704/15/-5f8y5Q2g-9q44ZjT1kS63-fk.png ",
+        "cardIntro": "一度被大家预测为最烂的任务，戏剧性的转折让我们意识到我们对炉石的看法有多么肤浅，在新扩展包发售当天大家就意识到这个任务有多么容易完成。最糟糕的是任务贼互动性比起2014年的奇迹贼还差，要么你被抢死，要么你完成任务，这是与时间追赶。",
+        "weekRating": "4(-)",
+        "toFast": "x",
+        "toControl": "x",
+        "cons": ["打脸法","冰法","动物园","打脸战"
+        ]
+      }
+    ]
+  },
+  "T2": {
+    "Tintro": "猛犸年第一个版本的T2可谓是百花齐放，除了T2两大霸主职业，只有大家看腻的萨满缺席。",
+    "Deck": [
+      {
+        "name": "龙牧",
+        "class": "牧师",
+        "imgSrc": "http://i1.piimg.com/567571/7757703fc80a27b5.png",
+        "imgUrl": "http://img.ngacn.cc/attachments/mon_201704/15/-5f8y5Q2g-dvrmZkT1kS63-fk.png",
+        "cardIntro": "在黑石山副本退役后龙牧并未死亡，光照元素让你低费打出解牌、暗影视界找到额外解牌、莱拉补充手牌。尤其是这个版本依赖场面争夺，龙牧和牧师本来就擅长于此。",
+        "weekRating": "5(-1)",
+        "toFast": "-始生幼龙 +神圣新星",
+        "toControl": "-疯狂药水 +好奇的莹根草、伊瑟拉",
+        "cons": ["海盗战","冰法","任务贼","鱼人骑"
+        ]
+      },
+      {
+        "name": "动物园",
+        "class": "术士",
+        "imgSrc": "http://i1.piimg.com/567571/05018739ff6bd287.png",
+        "imgUrl": "http://img.ngacn.cc/attachments/mon_201704/15/-5f8y5Q2g-40obZjT1kS63-fk.png",
+        "cardIntro": "新卡去旧卡来，动物园长盛不衰，目前的卡位仍然有待商酌。魔暴龙蛋和饥饿的翼手龙越来越多人考虑投入，拉卡利地狱犬很强，但丢掉末日守卫时就很尴尬，因为你并没有很多卡想被丢弃掉。",
+        "weekRating": "6(+6)",
+        "toFast": "-夜色镇图书管理员、魔暴龙蛋、暴掠龙幼崽 +血帆海盗、海盗帕奇斯",
+        "toControl": "-飞刀杂耍者 +魔暴龙蛋、黑骑士",
+        "cons": ["龙牧","墙战","净化牧","冰法"
+        ]
+      },
+      {
+        "name": "中速猎",
+        "class": "猎人",
+        "imgSrc": "http://i4.buimg.com/567571/9405c386243ca590.png",
+        "imgUrl": "http://img.ngacn.cc/attachments/mon_201704/15/-5f8y5Q2g-ewaZjT1kS63-fk.png",
+        "cardIntro": "中速猎又回来了，很多猎人玩家应该对这个版本感到高兴。现在打脸萨和雷诺都已经消失，猎人能够携带葛拉卡爬行蟹进行针对海盗战，因此玩起来舒服多了。",
+        "weekRating": "7(+17)",
+        "toFast": "-食腐土狼 +葛拉卡爬行蟹",
+        "toControl": "x",
+        "cons": ["奇迹贼","墙战","咆哮德","中速骑"
+        ]
+      },
+      {
+        "name": "冰法",
+        "class": "法师",
+        "imgSrc": "http://i2.muimg.com/567571/1216d66518fcacca.png",
+        "imgUrl": " http://img.ngacn.cc/attachments/mon_201704/15/-5f8y5Q2g-8frcZkT1kS63-gj.png ",
+        "cardIntro": "暴雪以为他们拿走冰枪术就能让冰法消失于标准模式，事实证明这个想法是错误的，冰法的环境甚至比之前还要好。秘法学家和远古雕文是非常好的卡牌，而且这个版本盗贼很多、防战也没有很强的叠甲能力，雷诺更是你不用再担心的事情。",
+        "weekRating": "8(+7)",
+        "toFast": "x",
+        "toControl": "-寒冰护体 +炎爆术",
+        "cons": ["海盗战","中速猎","鱼人骑","墙战"
+        ]
+      },
+      {
+        "name": "咆哮德",
+        "class": "德鲁伊",
+        "imgSrc": "http://i1.piimg.com/567571/cd97a4935a87b2fe.png",
+        "imgUrl": "http://img.ngacn.cc/attachments/mon_201704/15/-5f8y5Q2g-1z3vZjT1kS63-fk.png",
+        "cardIntro":"快攻形态的咆哮德回归版本，带上一些廉价的强力单卡，加上芬杰鱼人体系就构成了这套牌，活体法力也让你有面对AOE时的资本。",
+        "weekRating": "9(+16)",
+        "toFast": "x",
+        "toControl": "-变形神龟 +苦潮多头蛇",
+        "cons": ["鱼人骑","动物园","奇迹贼","龙牧"
+        ]
+      },
+      {
+        "name": "中速骑",
+        "class": "骑士",
+        "imgSrc": "http://i2.muimg.com/567571/7525285e88837445.png",
+        "imgUrl": "http://img.ngacn.cc/attachments/mon_201704/15/-5f8y5Q2g-kbdtZoT1kS63-ih.png",
+        "cardIntro": "中速骑在新版本死灰复燃，中速骑依靠前期强力随从和中后期高价值随从进行场面竞争，目前有多种构筑，如携带芬杰鱼人体系，但守日者塔林姆这张新橙卡已经被证实是可用。",
+        "weekRating": "10(+16)",
+        "toFast": "-始生幼龙 +自走炮",
+        "toControl": "-葛拉卡爬行蟹 +伊瑟拉",
+        "cons": ["龙牧","鱼人骑","冰法"
+        ]
+      },
+      {
+        "name": "打脸法",
+        "class": "法师",
+        "imgSrc": "http://i2.muimg.com/567571/deebdebcb1a6b62c.png",
+        "imgUrl": "http://img.ngacn.cc/attachments/mon_201704/15/-5f8y5Q2g-945fZlT1kS63-gj.png",
+        "cardIntro": "打脸法在这个版本得到两张新卡，远古雕文配合巫师学徒时效果显著，秘法学家让你基本能够抓到两张寒冰屏障有足够的时间打死对手，这套牌爆发伤害非常高，相当克制流行的盗贼套牌。",
+        "weekRating": "11(-2)",
+        "toFast": "-火车王 +冰霜新星",
+        "toControl": "x",
+        "cons": ["龙牧","墙战","海盗战","咆哮德"
+        ]
+      },
+      {
+        "name": "净化牧",
+        "class": "牧师",
+        "imgSrc": "http://i2.muimg.com/567571/f285e95383a51dce.png",
+        "imgUrl": "http://img.ngacn.cc/attachments/mon_201704/15/-5f8y5Q2g-gbneZjT1kS63-fk.png",
+        "cardIntro": "在巨齿刀叶到来补强了前期曲线后，净化牧迎来了春天，可以通过沉默随从踢死对手，也可以利用无面蹒跚者获得高血量的身材，巴内斯拉出的怪也能被沉默复原。",
+        "weekRating": "12(-)",
+        "toFast": "-苦潮多头蛇 +日怒保卫者",
+        "toControl": "-宴会牧师 +苦痛侍僧、暗影视界",
+        "cons": ["奇迹贼","龙牧","中速骑","任务贼"
+        ]
+      },
+      {
+        "name": "鱼人骑",
+        "class": "骑士",
+        "imgSrc": "http://i2.muimg.com/567571/fcca640b3d0876c1.png",
+        "imgUrl": "http://img.ngacn.cc/attachments/mon_201704/15/-5f8y5Q2g-9j6xZlT1kS63-gj.png",
+        "cardIntro": "这是之前鱼人快攻骑的变种，三种鱼人新卡加强了套牌滚雪球能力和稳定性，温顺的巨壳龙进化一波瞬间爆炸，但面对快攻套牌还是很容易丢掉场面。",
+        "weekRating": "13(+5)",
+        "toFast": "-火车王 +奉献",
+        "toControl": "-葛拉卡爬行蟹 +苦潮多头蛇、神恩术",
+        "cons": ["奇迹贼","任务贼","动物园","海盗战"
+        ]
+      }
+    ]
+  },
+  "T3": {
+    "Tintro": "这里的一些卡组其实思路已经很成熟，只是还没有得到优化和改进，他们在版本稳定后或许会出现新的完善构筑。",
+    "Deck": [
+      {
+        "name": "元素萨",
+        "class": "萨满",
+        "imgSrc": "http://i4.buimg.com/567571/b61fd5c1b8b64c86.png",
+        "imgUrl": "http://img.ngacn.cc/attachments/mon_201704/15/-5f8y5Q2g-5h4pZnT1kS63-ih.png",
+        "cardIntro": "",
+        "weekRating": "",
+        "toFast": "",
+        "toControl": "",
+        "cons": []
+      },
+      {
+        "name": "嗜血萨",
+        "class": "萨满",
+        "imgSrc": "http://i2.muimg.com/567571/4ff1990e3a61f1bb.png",
+        "imgUrl": "http://img.ngacn.cc/attachments/mon_201704/15/-5f8y5Q2g-48sfZlT1kS63-gj.png",
+        "cardIntro": "",
+        "weekRating": "",
+        "toFast": "",
+        "toControl": "",
+        "cons": []
+      },
+      {
+        "name": "心火牧",
+        "class": "牧师",
+        "imgSrc": "http://i4.buimg.com/567571/aa322ab1e6a0f95e.png",
+        "imgUrl": "http://img.ngacn.cc/attachments/mon_201704/15/-5f8y5Q2g-jvbuZlT1kS63-gj.png ",
+        "cardIntro": "",
+        "weekRating": "",
+        "toFast": "",
+        "toControl": "",
+        "cons": []
+      },
+      {
+        "name": "任务法",
+        "class": "法师",
+        "imgSrc": "http://i4.buimg.com/567571/bead32695e198c7c.png",
+        "imgUrl": "http://img.ngacn.cc/attachments/mon_201704/15/-5f8y5Q2g-3adsZlT1kS63-gj.png",
+        "cardIntro": "",
+        "weekRating": "",
+        "toFast": "",
+        "toControl": "",
+        "cons": []
+      },
+      {
+        "name": "快攻贼",
+        "class": "盗贼",
+        "imgSrc": "http://i1.piimg.com/567571/24c4a10cd89879a9.png",
+        "imgUrl": "http://img.ngacn.cc/attachments/mon_201704/15/-5f8y5Q2g-gyafZlT1kS63-gj.png",
+        "cardIntro": "",
+        "weekRating": "",
+        "toFast": "",
+        "toControl": "",
+        "cons": []
+      },
+      {
+        "name": "恩佐斯骑",
+        "class": "骑士",
+        "imgSrc": "http://i1.piimg.com/567571/a151a9b0c4c8a09d.png",
+        "imgUrl": "http://img.ngacn.cc/attachments/mon_201704/15/-5f8y5Q2g-2wabZoT1kS63-ih.png",
+        "cardIntro": "",
+        "weekRating": "",
+        "toFast": "",
+        "toControl": "",
+        "cons": []
+      },
+      {
+        "name": "打脸猎",
+        "class": "猎人",
+        "imgSrc": "http://i2.muimg.com/567571/05a9cc568d914bb2.png",
+        "imgUrl": " http://img.ngacn.cc/attachments/mon_201704/15/-5f8y5Q2g-ag1eZiT1kS63-el.png",
+        "cardIntro": "",
+        "weekRating": "",
+        "toFast": "",
+        "toControl": "",
+        "cons": []
+      },
+      {
+        "name": "萨隆牧",
+        "class": "牧师",
+        "imgSrc": "http://i2.muimg.com/567571/409fa1f4a108b778.png",
+        "imgUrl": "http://img.ngacn.cc/attachments/mon_201704/15/-5f8y5Q2g-91xlZmT1kS63-hi.png",
+        "cardIntro": "",
+        "weekRating": "",
+        "toFast": "",
+        "toControl": "",
+        "cons": []
+      },
+      {
+        "name": "恩佐斯牧",
+        "class": "牧师",
+        "imgSrc": "http://i1.piimg.com/567571/6ad1fe643d3b168e.png",
+        "imgUrl": "http://img.ngacn.cc/attachments/mon_201704/15/-5f8y5Q2g-3r8nZlT1kS63-gj.png",
+        "cardIntro": "",
+        "weekRating": "",
+        "toFast": "",
+        "toControl": "",
+        "cons": []
+      },
+      {
+        "name": "中速萨",
+        "class": "萨满",
+        "imgSrc": "http://i2.muimg.com/567571/b9ac6cf62a38e320.png",
+        "imgUrl": "http://img.ngacn.cc/attachments/mon_201704/15/-5f8y5Q2g-expjZlT1kS63-gj.png",
+        "cardIntro": "",
+        "weekRating": "",
+        "toFast": "",
+        "toControl": "",
+        "cons": []
+      },
+      {
+        "name": "手牌术",
+        "class": "术士",
+        "imgSrc": "http://i4.buimg.com/567571/aceacf6631b01378.png",
+        "imgUrl": "http://img.ngacn.cc/attachments/mon_201704/15/-5f8y5Q2g-g7rfZlT1kS63-gj.png",
+        "cardIntro": "",
+        "weekRating": "",
+        "toFast": "",
+        "toControl": "",
+        "cons": []
+      }
+    ]
+  },
+  "T4": {
+    "Tintro": "失去穴居人+图腾魔像的起手，也失去碧蓝幼龙的续航，打脸萨处境维艰。至于青玉德无论对上何种形态的盗贼都很难打，目前这个排名存疑，说它已经消亡还为时过早，随时有可能往上攀升。至于跳费德失去腐根和乌鸦神像后，前期压力大增，加上艾维娜远去已经不具备斩杀能力，又回到之前那种快速跳费靠随从质量碾压的构筑，但面对盗贼时没有反抗之力。",
+    "Deck": [
+      {
+        "name": "打脸萨",
+        "class": "萨满",
+        "imgSrc": "http://i2.muimg.com/567571/e4b765d8e7ae1b34.png",
+        "imgUrl": "http://img.ngacn.cc/attachments/mon_201704/15/-5f8y5Q2g-1jobZlT1kS63-gj.png",
+        "cardIntro": "",
+        "weekRating": "",
+        "toFast": "",
+        "toControl": "",
+        "cons": []
+      },
+      {
+        "name": "青玉德",
+        "class": "德鲁伊",
+        "imgSrc": "http://i1.piimg.com/567571/9d98149d17b5ff96.png",
+        "imgUrl": "http://img.ngacn.cc/attachments/mon_201704/15/-5f8y5Q2g-et72ZnT1kS63-ih.png",
+        "cardIntro": "",
+        "weekRating": "",
+        "toFast": "",
+        "toControl": "",
+        "cons": []
+      },
+      {
+        "name": "跳费德",
+        "class": "德鲁伊",
+        "imgSrc": "http://i4.buimg.com/567571/13a5930af5eab1c8.png",
+        "imgUrl": "http://img.ngacn.cc/attachments/mon_201704/15/-5f8y5Q2g-3kn6ZnT1kS63-ih.png",
+        "cardIntro": "",
+        "weekRating": "",
+        "toFast": "",
+        "toControl": "",
+        "cons": []
+      }
+    ]
+  },
+  "T5": {
+    "Tintro": "新橙卡赫米特似乎就是为了这套卡组而生，一旦牌组的廉价卡牌被清理后，5费神圣愤怒无论是过到熔核巨人或者另一张神圣愤怒都能打出满血斩杀的绚丽组合技。但这套牌仍然需要优化，目前看起来噱头大于强度。",
+    "Deck": [
+      {
+        "name": "元气骑",
+        "class": "骑士",
+        "imgSrc": "http://i4.buimg.com/567571/e2742e8e4960a385.png",
+        "imgUrl": "http://img.ngacn.cc/attachments/mon_201704/15/-5f8y5Q2g-10vsZkT1kS63-fk.png",
+        "cardIntro": "",
+        "weekRating": "",
+        "toFast": "",
+        "toControl": "",
+        "cons": []
+      }
+    ]
+  }
+}
