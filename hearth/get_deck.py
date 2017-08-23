@@ -69,6 +69,8 @@ if __name__ == '__main__':
             if string == '本期简介':
                 part = 1
         elif part == 1:
+            if string == '本期TS周报分级和走势为：':
+                mark = 2
             if mark == 1:
                 deck_info['intro'] += string
             elif mark == 2:
@@ -123,8 +125,6 @@ if __name__ == '__main__':
                     deck['cardIntro'] = deck.get('cardIntro', '') + string
             if '—近期变化—' in string:
                 mark = 1
-            if string == '本期TS周报分级和走势为：':
-                mark = 2
     print json.dumps(deck_info, ensure_ascii=False)
     with codecs.open('src/temp.json', 'a', 'utf-8') as f:
         f.write(json.dumps(deck_info, ensure_ascii=False, indent=4))
