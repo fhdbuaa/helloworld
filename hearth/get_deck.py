@@ -12,7 +12,7 @@ def d_format(word):
         a = word.index('[')
         b = word.index(']')
         word = word[:a] + word[b + 1:]
-    return word
+    return word.strip('=')
 
 
 def get_class(word):
@@ -41,13 +41,13 @@ def update_deck(decks, info):
 
 
 if __name__ == '__main__':
-    exceptions_list = {'防战': '恩佐斯防战'}
+    exceptions_list = {'中速骑': '鱼人骑'}
     pinyin = xpinyin.Pinyin()
     deck_info = {'intro': '', 'TS': {'Tintro': '', 'deck': []}, 'T1': {'Tintro': '', 'deck': []},
                  'T2': {'Tintro': '', 'deck': []}, 'T3': {'Tintro': '', 'deck': []}, 'T4': {'Tintro': '', 'deck': []},
                  'T5': {'Tintro': '', 'deck': []}}
-    tid = 12279438
-    ts_url = 'http://bbs.ngacn.cc/read.php?tid=' + unicode(12279438)
+    tid = 12333490
+    ts_url = 'http://bbs.ngacn.cc/read.php?tid=' + unicode(tid)
     web = requests.session()
     web.trust_env = False
     data = web.get(ts_url)
@@ -73,12 +73,12 @@ if __name__ == '__main__':
                 mark = 2
             if mark == 1:
                 deck_info['intro'] += string
-            elif mark == 2:
+            elif mark == 2 and string != '本期TS周报分级和走势为：':
                 temp = string.split('：')
                 for item in temp[1].split('、'):
                     for k, v in exceptions_list.items():
                         if item.startswith(k):
-                            item = v + item[2:]
+                            item = v + '(' + item.split('(')[1]
                     rank += 1
                     try:
                         deck = {'name': item.split('(')[0], 'weekRating': unicode(rank) + '(' + item.split('(')[1],
@@ -123,6 +123,7 @@ if __name__ == '__main__':
                     deck['cons'] = string.split('：')[1].split('、')
                 if rank == 1 and not string.endswith('.png'):
                     deck['cardIntro'] = deck.get('cardIntro', '') + string
+
             if '—近期变化—' in string:
                 mark = 1
     print json.dumps(deck_info, ensure_ascii=False)
