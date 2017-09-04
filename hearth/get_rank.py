@@ -58,7 +58,7 @@ if __name__ == '__main__':
         for info in soup.find_all(class_='ranking-link'):
             player = player_info(info)
             # detail = get_details(player['id'])
-            print player
+            # print player
             all_players.append(player)
     # print get_details(all_players[0]['id'])
     with codecs.open('src/rank.json', 'a', 'utf-8') as f:
