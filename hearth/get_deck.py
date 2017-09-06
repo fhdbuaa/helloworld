@@ -41,12 +41,13 @@ def update_deck(decks, info):
 
 
 if __name__ == '__main__':
-    exceptions_list = {'中速骑': '鱼人骑'}
+    # exceptions_list = {'中速骑': '鱼人骑'}
+    exceptions_list = {}
     pinyin = xpinyin.Pinyin()
     deck_info = {'intro': '', 'TS': {'Tintro': '', 'deck': []}, 'T1': {'Tintro': '', 'deck': []},
                  'T2': {'Tintro': '', 'deck': []}, 'T3': {'Tintro': '', 'deck': []}, 'T4': {'Tintro': '', 'deck': []},
                  'T5': {'Tintro': '', 'deck': []}}
-    tid = 12333490
+    tid = 12383018
     ts_url = 'http://bbs.ngacn.cc/read.php?tid=' + unicode(tid)
     web = requests.session()
     web.trust_env = False
