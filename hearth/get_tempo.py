@@ -5,6 +5,9 @@ from bs4 import BeautifulSoup
 import json
 import codecs
 import xpinyin
+import tinify
+
+tinify.key = 'm1wfTSfLD9GUu5uJ9iPLUW3H6dTEUhA3'
 
 
 def d_format(word):
@@ -105,15 +108,10 @@ if __name__ == '__main__':
                 if string.endswith('.png'):
                     imgUrl = r'http://img.ngacn.cc/attachments' + string[string.index('/'):]
                     deck['imgUrl'] = imgUrl
-                    img = requests.get(imgUrl, stream=True)
+                    source = tinify.from_url(imgUrl)
                     # print deck['name'], pinyin.get_pinyin(deck['name'], '')
-                    with open('src/' + kind + '-' + pinyin.get_pinyin(deck_name, '') + '.png', str('wb')) as png:
-                        for chunk in img.iter_content(chunk_size=1024):
-                            if chunk:  # filter out keep-alive new chunks
-                                png.write(chunk)
-                                png.flush()
-                        deck['imgSrc'] = href + kind + '-' + pinyin.get_pinyin(
-                            deck_name, '') + '.png'
+                    source.to_file("src/" + kind + '-' + pinyin.get_pinyin(deck_name, '') + '.png')
+                    deck['imgSrc'] = href + kind + '-' + pinyin.get_pinyin(deck_name, '') + '.png'
                     rank = 1
                 if string.startswith('套牌代码：'):
                     rank = 3
