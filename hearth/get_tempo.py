@@ -41,6 +41,7 @@ def update_deck(decks, info):
 
 
 if __name__ == '__main__':
+    href = 'https://longlang.github.io/deckimg/'
     # exceptions_list = {'中速骑': '鱼人骑'}
     exceptions_list = {}
     pinyin = xpinyin.Pinyin()
@@ -111,7 +112,7 @@ if __name__ == '__main__':
                             if chunk:  # filter out keep-alive new chunks
                                 png.write(chunk)
                                 png.flush()
-                        deck['imgSrc'] = 'https://longlang.github.io/deckimg/' + kind + '-' + pinyin.get_pinyin(
+                        deck['imgSrc'] = href + kind + '-' + pinyin.get_pinyin(
                             deck_name, '') + '.png'
                     rank = 1
                 if string.startswith('套牌代码：'):
