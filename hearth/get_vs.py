@@ -4,7 +4,9 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import codecs
-import xpinyin
+import tinify
+
+tinify.key = 'm1wfTSfLD9GUu5uJ9iPLUW3H6dTEUhA3'
 
 
 def d_format(word):
@@ -19,8 +21,11 @@ def save_img(url, key, unique):
     print url
     img = requests.get(url, stream=True)
     if img.status_code == 200:
-        open('vs/' + char[key] + '-' + unicode(unique) + '.png', str('wb')).write(img.content)
-    return char[key] + '-' + unicode(unique) + '.png'
+        source = tinify.from_url(url)
+        source.to_file("vs/" + char[key] + '-' + unicode(unique) + '.png')
+        return char[key] + '-' + unicode(unique) + '.png'
+    else:
+        return ''
 
 
 char = {'潜行者': 'Rogue', '牧师': 'Priest', '德鲁伊': 'Druid', '术士': 'Warlock', '猎人': 'Hunter', '法师': 'Mage',
@@ -47,7 +52,7 @@ if __name__ == '__main__':
         if title in char and '[h]' not in string:
             if string_.endswith('.png') and string_.startswith('./'):
                 imgUrl = r'http://img.ngacn.cc/attachments' + string_[string_.index('/'):]
-                temp['png'] += ['http://longlang.oschina.io/'+save_img(imgUrl, title, i)]
+                temp['png'] += ['http://longlang.oschina.io/' + save_img(imgUrl, title, i)]
                 i += 1
             elif not string_.endswith('.png'):
                 temp['info'] += string_
