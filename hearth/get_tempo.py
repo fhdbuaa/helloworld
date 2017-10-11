@@ -47,7 +47,7 @@ if __name__ == '__main__':
     deck_info = {'intro': '', 'TS': {'Tintro': '', 'deck': []}, 'T1': {'Tintro': '', 'deck': []},
                  'T2': {'Tintro': '', 'deck': []}, 'T3': {'Tintro': '', 'deck': []}, 'T4': {'Tintro': '', 'deck': []},
                  'T5': {'Tintro': '', 'deck': []}}
-    tid = 12383018
+    tid = 12607715
     ts_url = 'http://bbs.ngacn.cc/read.php?tid=' + unicode(tid)
     web = requests.session()
     web.trust_env = False
@@ -86,7 +86,9 @@ if __name__ == '__main__':
                                 'class': get_class(item.split('(')[0])}
                         deck_info[temp[0]]['deck'].append(deck)
                     except (IndexError, KeyError):
-                        print 'Error with', item
+                        deck = {'name': item, 'weekRating': '(-)',
+                                'class': get_class(item)}
+                        deck_info[temp[0]]['deck'].append(deck)
                 if temp[0] == 'T5':
                     mark = 3
                     rank = 0
