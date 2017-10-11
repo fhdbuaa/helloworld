@@ -125,7 +125,6 @@ if __name__ == '__main__':
                     deck['cons'] = string.split('：')[1].split('、')
                 if rank == 1 and not string.endswith('.png'):
                     deck['cardIntro'] = deck.get('cardIntro', '') + string
-
             if '—近期变化—' in string:
                 mark = 1
     print json.dumps(deck_info, ensure_ascii=False)
