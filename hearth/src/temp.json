@@ -3,64 +3,64 @@
         "Tintro": "欠缺精炼、思路奇异、极其小众或已经退役的套牌，要击败天梯主流套牌需要对套牌中每张单卡有深刻理解。", 
         "deck": [
             {
+                "code": "AAECAf0EDHHQAqsExQTtBewHo7YCobcClscCz8cCoM4Cm9MCCU3AAZUDlgX7DNe2Aum6AsHBApjEAgA", 
                 "name": "控制法", 
-                "cardIntro": "控制法代码：AAECAf0EDHHQAqsExQTtBewHo7YCobcClscCz8cCoM4Cm9MCCU3AAZUDlgX7DNe2Aum6AsHBApjEAgA", 
                 "imgSrc": "https://longlang.github.io/deckimg/T4-kongzhifa.png", 
                 "weekRating": "(-)", 
                 "class": "法师", 
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-fkuaZpT1kS63-kf.png"
             }, 
             {
+                "code": "AAECAQcGS5EDrLsCoM4C9s8Cn9MCDJAD1AT8BJEG+Af/B7II+wzGwwLMzQKOzgLx0wIA", 
                 "name": "爆牌战", 
-                "cardIntro": "爆牌战代码：AAECAQcGS5EDrLsCoM4C9s8Cn9MCDJAD1AT8BJEG+Af/B7II+wzGwwLMzQKOzgLx0wIA", 
                 "imgSrc": "https://longlang.github.io/deckimg/T4-baopaizhan.png", 
                 "weekRating": "(-)", 
                 "class": "战士", 
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-8mkwZmT1kS63-hi.png"
             }, 
             {
+                "code": "AAECAQcGS6IE/ATgrAKgzgKf0wIMkAPUBJEG/weyCPsMxsMC38QCoscCys0CzM0Cjs4CAA", 
                 "name": "防战", 
-                "cardIntro": "防战代码：AAECAQcGS6IE/ATgrAKgzgKf0wIMkAPUBJEG/weyCPsMxsMC38QCoscCys0CzM0Cjs4CAA", 
                 "imgSrc": "https://longlang.github.io/deckimg/T4-fangzhan.png", 
                 "weekRating": "(-)", 
                 "class": "战士", 
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-12acZmT1kS63-hi.png"
             }, 
             {
+                "code": "AAECAZ8FDM8G+gaiCdsK+wyKrgLZrgLmrgK5sgK5wQLJxwKO0wIJigHcA/QF9gePCbPBApvCAt/EAojHAgA", 
                 "name": "控制骑", 
-                "cardIntro": "控制骑代码：AAECAZ8FDM8G+gaiCdsK+wyKrgLZrgLmrgK5sgK5wQLJxwKO0wIJigHcA/QF9gePCbPBApvCAt/EAojHAgA", 
                 "imgSrc": "https://longlang.github.io/deckimg/T4-kongzhiqi.png", 
                 "weekRating": "(-)", 
                 "class": "骑士", 
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-gxghZqT1kS63-kf.png"
             }, 
             {
+                "code": "AAECAa0GBKmtArW7AvC7Ar7IAg34At0E5QT2B6UJ0QrSCvIM+wystALRwQLYwQLFxwIA", 
                 "name": "沉默牧", 
-                "cardIntro": "沉默牧代码：AAECAa0GBKmtArW7AvC7Ar7IAg34At0E5QT2B6UJ0QrSCvIM+wystALRwQLYwQLFxwIA", 
                 "imgSrc": "https://longlang.github.io/deckimg/T4-chenmomu.png", 
                 "weekRating": "(-)", 
                 "class": "牧师", 
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-ifnoZlT1kS63-gj.png"
             }, 
             {
+                "code": "AAECAa0GBvgC0QrTCuq/Ar7IAqbOAgzlBI0I1wryDJK0AoK1Arq7AvC7AtHBAtjBAuTCAsrLAgA", 
                 "name": "龙牧", 
-                "cardIntro": "龙牧代码：AAECAa0GBvgC0QrTCuq/Ar7IAqbOAgzlBI0I1wryDJK0AoK1Arq7AvC7AtHBAtjBAuTCAsrLAgA", 
                 "imgSrc": "https://longlang.github.io/deckimg/T4-longmu.png", 
                 "weekRating": "(-)", 
                 "class": "牧师", 
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-7kk4ZmT1kS63-hi.png"
             }, 
             {
+                "code": "AAECAZ8FBPoGvL0CucECnOICDfIFjwnZrgKzuwKVvAKbwgLrwgKIxwLKywLjywKmzgL30AKW6AIA", 
                 "name": "污手骑", 
-                "cardIntro": "污手骑代码：AAECAZ8FBPoGvL0CucECnOICDfIFjwnZrgKzuwKVvAKbwgLrwgKIxwLKywLjywKmzgL30AKW6AIA", 
                 "imgSrc": "https://longlang.github.io/deckimg/T4-wushouqi.png", 
                 "weekRating": "(-)", 
                 "class": "骑士", 
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-8nsZlT1kS63-gj.png"
             }, 
             {
+                "code": "AAECAQcE0q4CubIC08MCoscCDUuKAdQEkQb7DIKtAv68ApvCAsbDAsrDAt/EAsnHAszNAgA", 
                 "name": "墙战", 
-                "cardIntro": "墙战代码：AAECAQcE0q4CubIC08MCoscCDUuKAdQEkQb7DIKtAv68ApvCAsbDAsrDAt/EAsnHAszNAgAT5卡组", 
                 "imgSrc": "https://longlang.github.io/deckimg/T4-qiangzhan.png", 
                 "weekRating": "(-)", 
                 "class": "战士", 
@@ -72,8 +72,8 @@
         "Tintro": "有趣的套牌，能够让你体验到炉石的乐趣，而不是专注于取胜。", 
         "deck": [
             {
+                "code": "AAECAaIHApG8AobCAg7EAZwC7QKfA4gF1AWGCYqtApK2Avi9ApfBAvzBAuvCAsbHAgA", 
                 "name": "任务贼", 
-                "cardIntro": "任务贼代码：AAECAaIHApG8AobCAg7EAZwC7QKfA4gF1AWGCYqtApK2Avi9ApfBAvzBAuvCAsbHAgA", 
                 "imgSrc": "https://longlang.github.io/deckimg/T5-renwuzei.png", 
                 "weekRating": "(-)", 
                 "class": "盗贼", 
@@ -85,56 +85,56 @@
         "Tintro": "具有竞争力但存在一些弱点的套牌，比如翻盘能力不足或者依赖牌序，在加入黑科技后能够击败顶级套牌。", 
         "deck": [
             {
+                "code": "AAECAaoIBtMBkwmFuAKRvAKUvQLrzwIMgQTlB/AH+qoC+6oCoLYCh7wC0bwC9r0C+b8CkcEC68ICAA", 
                 "name": "铺场萨", 
-                "cardIntro": "代码：AAECAaoIBtMBkwmFuAKRvAKUvQLrzwIMgQTlB/AH+qoC+6oCoLYCh7wC0bwC9r0C+b8CkcEC68ICAA", 
                 "imgSrc": "https://longlang.github.io/deckimg/T2-puchangsa.png", 
                 "weekRating": "(-)", 
                 "class": "萨满", 
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-a25gZmT1kS63-hi.png"
             }, 
             {
+                "code": "AAECAf0GBMQIkbwCl9MCnOICDTD3BKgFzgflB8IItKwCvLYC68ICm8sC980Clc4Cps4CAA", 
                 "name": "动物园", 
-                "cardIntro": "动物园代码：AAECAf0GBMQIkbwCl9MCnOICDTD3BKgFzgflB8IItKwCvLYC68ICm8sC980Clc4Cps4CAA", 
                 "imgSrc": "https://longlang.github.io/deckimg/T2-dongwuyuan.png", 
                 "weekRating": "(-)", 
                 "class": "术士", 
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-2o6kZlT1kS63-gj.png"
             }, 
             {
+                "code": "AAECAZICAqEGkbwCDvcD5gXZB+UHwasCtrMCzbsChsECn8ICr8IC5MIC68ICm80CkdACAA", 
                 "name": "快攻德", 
-                "cardIntro": "快攻德代码：AAECAZICAqEGkbwCDvcD5gXZB+UHwasCtrMCzbsChsECn8ICr8IC5MIC68ICm80CkdACAA", 
                 "imgSrc": "https://longlang.github.io/deckimg/T2-kuaigongde.png", 
                 "weekRating": "(-)", 
                 "class": "德鲁伊", 
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-gdrrZjT1kS63-fk.png"
             }, 
             {
+                "code": "AAECAR8ClwjFCA6oArUD6wfbCe0JgQr+DLm0Auq7Aq/CAuTCAuvCAo7DAtfNAgA", 
                 "name": "中速猎", 
-                "cardIntro": "中速猎代码：AAECAR8ClwjFCA6oArUD6wfbCe0JgQr+DLm0Auq7Aq/CAuTCAuvCAo7DAtfNAgA", 
                 "imgSrc": "https://longlang.github.io/deckimg/T2-zhongsulie.png", 
                 "weekRating": "(-)", 
                 "class": "猎人", 
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-k1zhZjT1kS63-fk.png"
             }, 
             {
+                "code": "AAECAQcEyAPyBZG8ApziAg0csAKRA/8DjgWoBdQF7gaCsAKIsAK5vwKvwgLrwgIA", 
                 "name": "海盗战", 
-                "cardIntro": "海盗战代码：AAECAQcEyAPyBZG8ApziAg0csAKRA/8DjgWoBdQF7gaCsAKIsAK5vwKvwgLrwgIA", 
                 "imgSrc": "https://longlang.github.io/deckimg/T2-haidaozhan.png", 
                 "weekRating": "(-)", 
                 "class": "战士", 
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-e4dmZlT1kS63-gj.png"
             }, 
             {
+                "code": "AAECAZ8FBqEG+ga8vQLjvgK5wQLvwgIM2wOvB6cI06oC2a4Cs8ECncICscICiMcC48sCps4ClugCAA", 
                 "name": "中速骑", 
-                "cardIntro": "中速骑代码：AAECAZ8FBqEG+ga8vQLjvgK5wQLvwgIM2wOvB6cI06oC2a4Cs8ECncICscICiMcC48sCps4ClugCAA", 
                 "imgSrc": "https://longlang.github.io/deckimg/T2-zhongsuqi.png", 
                 "weekRating": "(-)", 
                 "class": "骑士", 
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-9u0kZmT1kS63-hi.png"
             }, 
             {
+                "code": "AAECAf0EBMMB+AyWxwLCzgINcbsC7gKVA6sElgXsBaO2Ate2Aoe9AsHBAq/CApjEAgA", 
                 "name": "节奏法", 
-                "cardIntro": "节奏法代码：AAECAf0EBMMB+AyWxwLCzgINcbsC7gKVA6sElgXsBaO2Ate2Aoe9AsHBAq/CApjEAgAT3卡组", 
                 "imgSrc": "https://longlang.github.io/deckimg/T2-jiezoufa.png", 
                 "weekRating": "(-)", 
                 "class": "法师", 
@@ -146,40 +146,40 @@
         "Tintro": "较为中庸且不算很烂的套牌，但要么完整度不足，要么套牌类型不符合当前环境。", 
         "deck": [
             {
+                "code": "AAECAf0GCooB7QXyBZIHtgfhB6LNAsLOApfTApfoAgowjQjECMwI8wzdvALkwgLexALnywL3zQIA", 
                 "name": "控制术", 
-                "cardIntro": "控制术代码：AAECAf0GCooB7QXyBZIHtgfhB6LNAsLOApfTApfoAgowjQjECMwI8wzdvALkwgLexALnywL3zQIA", 
                 "imgSrc": "https://longlang.github.io/deckimg/T3-kongzhishu.png", 
                 "weekRating": "(-)", 
                 "class": "术士", 
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-guhlZpT1kS63-jg.png"
             }, 
             {
+                "code": "AAECAa0GBKIJqKsChbgCws4CDR6XAtMK1wqhrAK1uwK3uwLovwLqvwLRwQLlzALmzAK0zgIA", 
                 "name": "大哥牧", 
-                "cardIntro": "大哥牧代码：AAECAa0GBKIJqKsChbgCws4CDR6XAtMK1wqhrAK1uwK3uwLovwLqvwLRwQLlzALmzAK0zgIA", 
                 "imgSrc": "https://longlang.github.io/deckimg/T3-dagemu.png", 
                 "weekRating": "(-)", 
                 "class": "牧师", 
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-fu1fZlT1kS63-gj.png"
             }, 
             {
+                "code": "AAECAZ8FBJG8Ary9ArnBApziAg1G8gGnBdQF9QXPBu4GrwfZrgK6vQLrwgLjywKVzgIA", 
                 "name": "快攻骑", 
-                "cardIntro": "快攻骑代码：AAECAZ8FBJG8Ary9ArnBApziAg1G8gGnBdQF9QXPBu4GrwfZrgK6vQLrwgLjywKVzgIA", 
                 "imgSrc": "https://longlang.github.io/deckimg/T3-kuaigongqi.png", 
                 "weekRating": "(-)", 
                 "class": "骑士", 
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-70xuZkT1kS63-gj.png"
             }, 
             {
+                "code": "AAECAaIHCMQBsgLNA+0FkbwC/MECgsICgNMCC7QBmwWXBogHpAeGCYK0ApK2AvW7AoHCApvIAgA", 
                 "name": "奇迹贼", 
-                "cardIntro": "奇迹贼代码：AAECAaIHCMQBsgLNA+0FkbwC/MECgsICgNMCC7QBmwWXBogHpAeGCYK0ApK2AvW7AoHCApvIAgA", 
                 "imgSrc": "https://longlang.github.io/deckimg/T3-qijizei.png", 
                 "weekRating": "(-)", 
                 "class": "盗贼", 
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-c65tZnT1kS63-ih.png"
             }, 
             {
+                "code": "AAECAf0EBO0EuAjQwQK50QINigHAAZwCyQOrBMsE5gT4B5KsAoGyAsHBApjEAtrFAgA", 
                 "name": "任务法", 
-                "cardIntro": "任务法代码：AAECAf0EBO0EuAjQwQK50QINigHAAZwCyQOrBMsE5gT4B5KsAoGyAsHBApjEAtrFAgAT4卡组", 
                 "imgSrc": "https://longlang.github.io/deckimg/T3-renwufa.png", 
                 "weekRating": "(-)", 
                 "class": "法师", 
@@ -206,6 +206,7 @@
                 "toFast": "-暗金教鸦人祭司 +末日预言者", 
                 "toControl": "-葛拉卡爬行蟹 +思维窃取", 
                 "cardIntro": "宇宙牧继续统治天梯，在最近的HCT夏季赛中也展现了强度。宇宙牧有各种构筑，这取决于你所处的环境。本期周报推荐的是HunteraceHS的宇宙牧套牌原型，他在10月初竞争激烈的天梯中夺得了传说第一。这套牌主要的黑科技是脏鼠，可以提高对阵内战、铺场萨、节奏贼甚至任务法的胜率。除了任务法，其他三个套牌都是天梯主流。即使如此，还是需要根据你所在的环境投入其他针对卡，比如小软或者杀手蟹。对于宇宙牧而言，唯一的坏消息是青玉德又回到了天梯主流，不断进化的青玉魔像是宇宙牧的噩梦，不少青玉德投入了大地之鳞来对抗宇宙牧。虽然有些人认为节奏贼已经取代了宇宙牧排名T1头名，但目前宇宙牧还是能够勉强保持自己的王者位置。", 
+                "code": "AAECAa0GHgn7AZcCnAKhBOUE7QX2B6UJ0wrVCtcK8gz7DKGsApK0AoO7ArW7Ati7AvC7Aui/Auq/AtHBAtjBAtnBAuTCAt/EAr7IAvDPApDTAgAA", 
                 "imgSrc": "https://longlang.github.io/deckimg/T1-yuzhoumu.png", 
                 "weekRating": "(-)", 
                 "class": "牧师", 
@@ -219,6 +220,7 @@
                 "toFast": "-寒光智者 +沙库尔", 
                 "toControl": "+凯恩血蹄", 
                 "cardIntro": "节奏贼延续了它的统治地位，是目前天梯周报排名第二的套牌，也帮助了很多玩家冲到了传说第一。从目前的结果来看，有不少可靠的节奏贼构筑。但这些节奏贼的核心卡牌基本上都是一致，带上二王子、一些海盗卡以及火车王冷血暗影步的组合技。随着当前游戏格局逐渐变慢，很多玩家开始变得贪心，带上一些针对控制卡组的卡牌，比如苦潮多头蛇、毒心者、深蓝刃鳞龙人。本期周报推荐的是Kranich打到传说第一的馆长节奏贼套牌，这个构筑舍弃了盗贼橙卡毒心和沙库尔，因为在内战中这些卡有些慢，取而代之带上了更多过牌手段。寒光智者依然是一个值得争议的地方，个人更倾向于换成沙库尔或者巴内斯。", 
+                "code": "AAECAaIHCpG8ApziAvgHsgKoBcrDAvIFrwSmzgK5sgIKtAHtAowC68IC1AWStgLdCJ/CAsrLAoHCAgA", 
                 "imgSrc": "https://longlang.github.io/deckimg/T1-jiezouzei.png", 
                 "weekRating": "(-)", 
                 "class": "盗贼", 
@@ -234,6 +236,7 @@
                 "toFast": "-库恩 +始生幼龙", 
                 "toControl": "-传播瘟疫 +麦迪文", 
                 "cardIntro": "过去几周的试验，证明了青玉德在暴雪设计师的“重创”后仍然有强大的恢复能力。即使失去了两张强力单卡，青玉德也不过是最强的TS级别套牌下滑到T1行列成为三巨头之一。然而当前游戏格局还不是慢速套牌的天下，节奏卡组是主流环境的基石。由于激活削弱后不再神奇，目前大部分的青玉德都是尽可能地拖延攻势以便进入到中后期阶段，很多玩家投入了130、葛拉卡爬行蟹和末日预言者，目标是让青玉德在缓慢开局中能够有足够的喘息机会。有些玩家还测试了带上麦迪文作为游戏后期的额外威胁，但这张卡可能不太适合这个版本，因为你在天梯上面对的至少70%是节奏套牌。提高对节奏套牌的胜率，显然是青玉德玩家的主要目标。", 
+                "code": "AAECAZICCIoB8gWuqwK+rgLguwKUvQLkwgKZ0wILQF/eBcQG5Ai0uwLLvALPvALdvgKgzQKHzgIA", 
                 "imgSrc": "https://longlang.github.io/deckimg/T1-qingyude.png", 
                 "weekRating": "(-)", 
                 "class": "德鲁伊", 
