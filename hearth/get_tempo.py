@@ -108,9 +108,9 @@ if __name__ == '__main__':
                 if string.endswith('.png'):
                     imgUrl = r'http://img.ngacn.cc/attachments' + string[string.index('/'):]
                     deck['imgUrl'] = imgUrl
-                    # source = tinify.from_url(imgUrl)
+                    source = tinify.from_url(imgUrl)
                     # print deck['name'], pinyin.get_pinyin(deck['name'], '')
-                    # source.to_file("src/" + kind + '-' + pinyin.get_pinyin(deck_name, '') + '.png')
+                    source.to_file("src/" + kind + '-' + pinyin.get_pinyin(deck_name, '') + '.png')
                     deck['imgSrc'] = href + kind + '-' + pinyin.get_pinyin(deck_name, '') + '.png'
                     rank = 1
                 if string.startswith('套牌代码：') or string.startswith('代码：'):
