@@ -5,8 +5,7 @@ from bs4 import BeautifulSoup
 import json
 import codecs
 import tinify
-
-tinify.key = 'm1wfTSfLD9GUu5uJ9iPLUW3H6dTEUhA3'
+import os
 
 
 def d_format(word):
@@ -22,7 +21,7 @@ def save_img(url, key, unique):
     img = requests.get(url, stream=True)
     if img.status_code == 200:
         source = tinify.from_url(url)
-        source.to_file("vs/" + char[key] + '-' + unicode(unique) + '.png')
+        source.to_file('vs/' + unicode(tid) + '/' + char[key] + '-' + unicode(unique) + '.png')
         return char[key] + '-' + unicode(unique) + '.png'
     else:
         return ''
@@ -30,18 +29,16 @@ def save_img(url, key, unique):
 
 char = {'潜行者': 'Rogue', '牧师': 'Priest', '德鲁伊': 'Druid', '术士': 'Warlock', '猎人': 'Hunter', '法师': 'Mage',
         '萨满': 'Shaman', '圣骑士': 'Paladin', '战士': 'Warrior', '天梯环境': 'Environment', '强度排序': 'Rank'}
+tinify.key = 'm1wfTSfLD9GUu5uJ9iPLUW3H6dTEUhA3'
 if __name__ == '__main__':
-    deck_info = {'Environment': {}, 'Rogue': [], 'Priest': [], }
+    deck_info, temp, title, i = {}, {'png': [], 'info': ''}, '', 0
     tid = 12582689
+    if not os.path.exists('vs/' + unicode(tid)):
+        os.mkdir('vs/' + unicode(tid))
     vs_url = 'http://bbs.nga.cn/read.php?tid=' + unicode(tid)
     web = requests.session()
     web.trust_env = False
-    data = web.get(vs_url)
-    # print data.content
-    soup = BeautifulSoup(data.content, "html.parser")
-    title = ''
-    temp = {'png': [], 'info': ''}
-    i = 0
+    soup = BeautifulSoup(web.get(vs_url).content, "html.parser")
     for string in soup.p.stripped_strings:
         string_ = d_format(string)
         if '[h]' in string:
@@ -58,5 +55,5 @@ if __name__ == '__main__':
                 temp['info'] += string_
             deck_info[char[title]] = temp
     print json.dumps(deck_info, ensure_ascii=False)
-    with codecs.open('vs/vs.json', 'wb', 'utf-8') as f:
+    with codecs.open('vs/' + unicode(tid) + '/vs.json', 'wb', 'utf-8') as f:
         f.write(json.dumps(deck_info, ensure_ascii=False, indent=4))

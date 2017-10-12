@@ -3,7 +3,7 @@
         "Tintro": "欠缺精炼、思路奇异、极其小众或已经退役的套牌，要击败天梯主流套牌需要对套牌中每张单卡有深刻理解。", 
         "deck": [
             {
-                "code": "AAECAf0EDHHQAqsExQTtBewHo7YCobcClscCz8cCoM4Cm9MCCU3AAZUDlgX7DNe2Aum6AsHBApjEAgA", 
+                "code": "AAECAf0EDHHQAqsExQTtBewHo7YCobcClscCz8cCoM4Cm9MCCU3AAZUDlgX7DNe2Aum6AsHBApjEAgA=", 
                 "name": "控制法", 
                 "imgSrc": "https://longlang.github.io/deckimg/T4-kongzhifa.png", 
                 "weekRating": "(-)", 
@@ -19,7 +19,7 @@
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-8mkwZmT1kS63-hi.png"
             }, 
             {
-                "code": "AAECAQcGS6IE/ATgrAKgzgKf0wIMkAPUBJEG/weyCPsMxsMC38QCoscCys0CzM0Cjs4CAA", 
+                "code": "AAECAQcGS6IE/ATgrAKgzgKf0wIMkAPUBJEG/weyCPsMxsMC38QCoscCys0CzM0Cjs4CAA==", 
                 "name": "防战", 
                 "imgSrc": "https://longlang.github.io/deckimg/T4-fangzhan.png", 
                 "weekRating": "(-)", 
@@ -27,7 +27,7 @@
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-12acZmT1kS63-hi.png"
             }, 
             {
-                "code": "AAECAZ8FDM8G+gaiCdsK+wyKrgLZrgLmrgK5sgK5wQLJxwKO0wIJigHcA/QF9gePCbPBApvCAt/EAojHAgA", 
+                "code": "AAECAZ8FDM8G+gaiCdsK+wyKrgLZrgLmrgK5sgK5wQLJxwKO0wIJigHcA/QF9gePCbPBApvCAt/EAojHAgA=", 
                 "name": "控制骑", 
                 "imgSrc": "https://longlang.github.io/deckimg/T4-kongzhiqi.png", 
                 "weekRating": "(-)", 
@@ -43,7 +43,7 @@
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-ifnoZlT1kS63-gj.png"
             }, 
             {
-                "code": "AAECAa0GBvgC0QrTCuq/Ar7IAqbOAgzlBI0I1wryDJK0AoK1Arq7AvC7AtHBAtjBAuTCAsrLAgA", 
+                "code": "AAECAa0GBvgC0QrTCuq/Ar7IAqbOAgzlBI0I1wryDJK0AoK1Arq7AvC7AtHBAtjBAuTCAsrLAgA=", 
                 "name": "龙牧", 
                 "imgSrc": "https://longlang.github.io/deckimg/T4-longmu.png", 
                 "weekRating": "(-)", 
@@ -59,7 +59,7 @@
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-8nsZlT1kS63-gj.png"
             }, 
             {
-                "code": "AAECAQcE0q4CubIC08MCoscCDUuKAdQEkQb7DIKtAv68ApvCAsbDAsrDAt/EAsnHAszNAgA", 
+                "code": "AAECAQcE0q4CubIC08MCoscCDUuKAdQEkQb7DIKtAv68ApvCAsbDAsrDAt/EAsnHAszNAgA=", 
                 "name": "墙战", 
                 "imgSrc": "https://longlang.github.io/deckimg/T4-qiangzhan.png", 
                 "weekRating": "(-)", 
@@ -72,11 +72,11 @@
         "Tintro": "有趣的套牌，能够让你体验到炉石的乐趣，而不是专注于取胜。", 
         "deck": [
             {
-                "code": "AAECAaIHApG8AobCAg7EAZwC7QKfA4gF1AWGCYqtApK2Avi9ApfBAvzBAuvCAsbHAgA", 
+                "code": "AAECAaIHApG8AobCAg7EAZwC7QKfA4gF1AWGCYqtApK2Avi9ApfBAvzBAuvCAsbHAgA=", 
                 "name": "任务贼", 
                 "imgSrc": "https://longlang.github.io/deckimg/T5-renwuzei.png", 
                 "weekRating": "(-)", 
-                "class": "盗贼", 
+                "class": "潜行者", 
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-3whuZjT1kS63-fk.png"
             }
         ]
@@ -85,7 +85,7 @@
         "Tintro": "具有竞争力但存在一些弱点的套牌，比如翻盘能力不足或者依赖牌序，在加入黑科技后能够击败顶级套牌。", 
         "deck": [
             {
-                "code": "AAECAaoIBtMBkwmFuAKRvAKUvQLrzwIMgQTlB/AH+qoC+6oCoLYCh7wC0bwC9r0C+b8CkcEC68ICAA", 
+                "code": "AAECAaoIBtMBkwmFuAKRvAKUvQLrzwIMgQTlB/AH+qoC+6oCoLYCh7wC0bwC9r0C+b8CkcEC68ICAA==", 
                 "name": "铺场萨", 
                 "imgSrc": "https://longlang.github.io/deckimg/T2-puchangsa.png", 
                 "weekRating": "(-)", 
@@ -93,7 +93,7 @@
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-a25gZmT1kS63-hi.png"
             }, 
             {
-                "code": "AAECAf0GBMQIkbwCl9MCnOICDTD3BKgFzgflB8IItKwCvLYC68ICm8sC980Clc4Cps4CAA", 
+                "code": "AAECAf0GBMQIkbwCl9MCnOICDTD3BKgFzgflB8IItKwCvLYC68ICm8sC980Clc4Cps4CAA==", 
                 "name": "动物园", 
                 "imgSrc": "https://longlang.github.io/deckimg/T2-dongwuyuan.png", 
                 "weekRating": "(-)", 
@@ -101,7 +101,7 @@
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-2o6kZlT1kS63-gj.png"
             }, 
             {
-                "code": "AAECAZICAqEGkbwCDvcD5gXZB+UHwasCtrMCzbsChsECn8ICr8IC5MIC68ICm80CkdACAA", 
+                "code": "AAECAZICAqEGkbwCDvcD5gXZB+UHwasCtrMCzbsChsECn8ICr8IC5MIC68ICm80CkdACAA==", 
                 "name": "快攻德", 
                 "imgSrc": "https://longlang.github.io/deckimg/T2-kuaigongde.png", 
                 "weekRating": "(-)", 
@@ -109,7 +109,7 @@
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-gdrrZjT1kS63-fk.png"
             }, 
             {
-                "code": "AAECAR8ClwjFCA6oArUD6wfbCe0JgQr+DLm0Auq7Aq/CAuTCAuvCAo7DAtfNAgA", 
+                "code": "AAECAR8ClwjFCA6oArUD6wfbCe0JgQr+DLm0Auq7Aq/CAuTCAuvCAo7DAtfNAgA=", 
                 "name": "中速猎", 
                 "imgSrc": "https://longlang.github.io/deckimg/T2-zhongsulie.png", 
                 "weekRating": "(-)", 
@@ -125,7 +125,7 @@
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-e4dmZlT1kS63-gj.png"
             }, 
             {
-                "code": "AAECAZ8FBqEG+ga8vQLjvgK5wQLvwgIM2wOvB6cI06oC2a4Cs8ECncICscICiMcC48sCps4ClugCAA", 
+                "code": "AAECAZ8FBqEG+ga8vQLjvgK5wQLvwgIM2wOvB6cI06oC2a4Cs8ECncICscICiMcC48sCps4ClugCAA==", 
                 "name": "中速骑", 
                 "imgSrc": "https://longlang.github.io/deckimg/T2-zhongsuqi.png", 
                 "weekRating": "(-)", 
@@ -133,7 +133,7 @@
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-9u0kZmT1kS63-hi.png"
             }, 
             {
-                "code": "AAECAf0EBMMB+AyWxwLCzgINcbsC7gKVA6sElgXsBaO2Ate2Aoe9AsHBAq/CApjEAgA", 
+                "code": "AAECAf0EBMMB+AyWxwLCzgINcbsC7gKVA6sElgXsBaO2Ate2Aoe9AsHBAq/CApjEAgA=", 
                 "name": "节奏法", 
                 "imgSrc": "https://longlang.github.io/deckimg/T2-jiezoufa.png", 
                 "weekRating": "(-)", 
@@ -170,15 +170,15 @@
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-70xuZkT1kS63-gj.png"
             }, 
             {
-                "code": "AAECAaIHCMQBsgLNA+0FkbwC/MECgsICgNMCC7QBmwWXBogHpAeGCYK0ApK2AvW7AoHCApvIAgA", 
+                "code": "AAECAaIHCMQBsgLNA+0FkbwC/MECgsICgNMCC7QBmwWXBogHpAeGCYK0ApK2AvW7AoHCApvIAgA=", 
                 "name": "奇迹贼", 
                 "imgSrc": "https://longlang.github.io/deckimg/T3-qijizei.png", 
                 "weekRating": "(-)", 
-                "class": "盗贼", 
+                "class": "潜行者", 
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-c65tZnT1kS63-ih.png"
             }, 
             {
-                "code": "AAECAf0EBO0EuAjQwQK50QINigHAAZwCyQOrBMsE5gT4B5KsAoGyAsHBApjEAtrFAgA", 
+                "code": "AAECAf0EBO0EuAjQwQK50QINigHAAZwCyQOrBMsE5gT4B5KsAoGyAsHBApjEAtrFAgA=", 
                 "name": "任务法", 
                 "imgSrc": "https://longlang.github.io/deckimg/T3-renwufa.png", 
                 "weekRating": "(-)", 
@@ -220,10 +220,10 @@
                 "toFast": "-寒光智者 +沙库尔", 
                 "toControl": "+凯恩血蹄", 
                 "cardIntro": "节奏贼延续了它的统治地位，是目前天梯周报排名第二的套牌，也帮助了很多玩家冲到了传说第一。从目前的结果来看，有不少可靠的节奏贼构筑。但这些节奏贼的核心卡牌基本上都是一致，带上二王子、一些海盗卡以及火车王冷血暗影步的组合技。随着当前游戏格局逐渐变慢，很多玩家开始变得贪心，带上一些针对控制卡组的卡牌，比如苦潮多头蛇、毒心者、深蓝刃鳞龙人。本期周报推荐的是Kranich打到传说第一的馆长节奏贼套牌，这个构筑舍弃了盗贼橙卡毒心和沙库尔，因为在内战中这些卡有些慢，取而代之带上了更多过牌手段。寒光智者依然是一个值得争议的地方，个人更倾向于换成沙库尔或者巴内斯。", 
-                "code": "AAECAaIHCpG8ApziAvgHsgKoBcrDAvIFrwSmzgK5sgIKtAHtAowC68IC1AWStgLdCJ/CAsrLAoHCAgA", 
+                "code": "AAECAaIHCpG8ApziAvgHsgKoBcrDAvIFrwSmzgK5sgIKtAHtAowC68IC1AWStgLdCJ/CAsrLAoHCAgA=", 
                 "imgSrc": "https://longlang.github.io/deckimg/T1-jiezouzei.png", 
                 "weekRating": "(-)", 
-                "class": "盗贼", 
+                "class": "潜行者", 
                 "imgUrl": "http://img.ngacn.cc/attachments/mon_201710/10/-5f8y5Q2h-cdlsZoT1kS63-jg.png"
             }, 
             {
