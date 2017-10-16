@@ -32,9 +32,9 @@ char = {'潜行者': 'Rogue', '牧师': 'Priest', '德鲁伊': 'Druid', '术士'
 tinify.key = 'm1wfTSfLD9GUu5uJ9iPLUW3H6dTEUhA3'
 if __name__ == '__main__':
     deck_info, temp, title, i = {}, {'png': [], 'info': ''}, '', 0
-    tid = 12582689
+    tid = 12628399
     if not os.path.exists('vs/' + unicode(tid)):
-        os.mkdir('vs/' + unicode(tid))
+        os.mkdir(str('vs/' + unicode(tid)))
     vs_url = 'http://bbs.nga.cn/read.php?tid=' + unicode(tid)
     web = requests.session()
     web.trust_env = False

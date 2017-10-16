@@ -37,9 +37,9 @@ def update_deck(decks, info):
     word = decks['name']
     for (key, value) in info.items():
         if isinstance(value, dict):
-            for i, temps in enumerate(value.get('deck', [])):
+            for index, temps in enumerate(value.get('deck', [])):
                 if temps['name'] == word:
-                    value.get('deck')[i] = decks
+                    value.get('deck')[index] = decks
     return info
 
 
@@ -49,7 +49,7 @@ if __name__ == '__main__':
     href = 'https://longlang.github.io/deckimg/'  # 图片服务器地址前缀
     tid = 12607715  # nga文章tid编号
     if not os.path.exists('ts/' + unicode(tid)):
-        os.mkdir('ts/' + unicode(tid))
+        os.mkdir(str('ts/' + unicode(tid)))
     ts_url = 'http://bbs.nga.cn/read.php?tid=' + unicode(tid)
     web = requests.session()
     web.trust_env = False
@@ -64,13 +64,13 @@ if __name__ == '__main__':
             title = string_
             i = 0
         print string, '****', title
-        if title == '引言' and re.match(r'^T.：', string_):
+        if title == '引言' and re.match(str(r'^T.：'), string_):
             temp = string_.split('：')
             deck_info[temp[0]]['Tintro'] = temp[1]
         elif title == '本期简介':
             if '[' not in string and ']' not in string:
                 deck_info['intro'] += string
-            elif re.match(r'^T.：', string_):
+            elif re.match(str(r'^T.：'), string_):
                 temp = string_.split('：')
                 for item in temp[1].split('、'):
                     for k, v in exceptions_list.items():
@@ -85,7 +85,7 @@ if __name__ == '__main__':
                         deck = {'name': item, 'weekRating': '(-)',
                                 'class': get_class(item)}
                         deck_info[temp[0]]['deck'].append(deck)
-        elif re.match(r'^T.卡组', title):
+        elif re.match(str(r'^T.卡组'), title):
             level = title[:2]
             if '[/color]' in string and string.startswith('=='):
                 if deck_name:
